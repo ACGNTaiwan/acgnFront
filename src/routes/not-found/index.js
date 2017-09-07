@@ -11,7 +11,7 @@ import React from 'react';
 import Layout from '../../components/Layout';
 import NotFound from './NotFound';
 
-const title = 'Page Not Found';
+const title = '找不到頁面';
 
 function action() {
   return {

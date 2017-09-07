@@ -24,7 +24,7 @@ class NotFound extends React.Component {
           <h1>
             {this.props.title}
           </h1>
-          <p>Sorry, the page you were trying to view does not exist.</p>
+          <p>你想找什麼，這裡沒有你要的東西喔</p>
         </div>
       </div>
     );
