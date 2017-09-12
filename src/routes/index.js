@@ -23,10 +23,10 @@ const routes = {
     //   path: '/contact',
     //   load: () => import(/* webpackChunkName: 'contact' */ './contact'),
     // },
-    // {
-    //   path: '/login',
-    //   load: () => import(/* webpackChunkName: 'login' */ './login'),
-    // },
+    {
+      path: '/login',
+      load: () => import(/* webpackChunkName: 'login' */ './login'),
+    },
     // {
     //   path: '/register',
     //   load: () => import(/* webpackChunkName: 'register' */ './register'),
